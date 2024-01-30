@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow: hidden; /* Disable vertical scrolling */
+}
+
+html, body {
+    overflow: hidden; /* Disable horizontal scrolling */
 }
 
 header,
@@ -83,6 +88,8 @@ main {
     footer {
         position: absolute;
         bottom: 0;
-        width: 100%;
+        width: 90%;
     }
+   
+    
 }
