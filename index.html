@@ -4,98 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Farewell Message</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        header,
-        footer {
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            padding: 1em;
-        }
-
-        main {
-            padding: 2em;
-            background: url('test.gif') center center fixed;
-            background-size: cover;
-            height: 100vh; /* Set height to 100% of viewport height */
-        }
-
-        .message-container {
-            text-align: left;
-            margin-bottom: 2em;
-            max-width: 600px;
-            margin: 0 auto;
-            position: relative;
-        }
-
-        .message-slider {
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .message-slider ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .message {
-            flex: 0 0 100%; /* Display one message per slide */
-            box-sizing: border-box;
-            color: #fff;
-            /* margin-right: 20px; /* Adjust the margin as needed */
-        }
-
-        .image-slider {
-            max-width: 600px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-
-        .image-slider img {
-            width: 100%;
-            height: auto;
-            display: none;
-        }
-
-        .navigation-buttons {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            justify-content: space-between;
-            width: 60px;
-        }
-
-        .arrow {
-            font-size: 24px;
-            cursor: pointer;
-            color: #fff;
-        }
-
-        @media only screen and (max-width: 600px) {
-            main {
-                background-size: contain;
-            }
-
-            footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-            }
-        }
-    </style>
-
+   
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -106,6 +18,7 @@
         <div id="imageSlider" class="image-slider">
             <img src="image1.jpg" alt="Slider Image 1" />
             <img src="image2.jpg" alt="Slider Image 2" />
+            <img src="image3.jpg" alt="Slider Image 3" />
             <!-- Add more images for the slider here -->
         </div>
 
@@ -113,130 +26,56 @@
             <div class="message-slider">
                 <ul class="messages-list">
                     <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
+                        <h2>Shimaah</h2>
+                        <p>Best wishes CG, as you move forward; your leadership at MIRA has left an indelible mark of excellence and innovation.</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
+                            <h2>Shifan</h2>
+                            <p>As you move on to new adventures, know that your leadership has left an indelible mark. Your guidance has been a source of inspiration. Wishing you continued success and fulfillment in your journey ahead. Farewell.</p>
+                        </li>
+                    <li class="message staff-message">
+                        <h2>Ifrah</h2>
+                        <p>Thank you for your contributions to MIRA. I wanted to sincerely thank you for your outstanding efforts as you go on with your future endeavors.</p>
+                    </li>
+                
+                    <li class="message staff-message">
+                        <h2>Mohamed</h2>
+                        <p>Your values and work ethic, as well as your ability to balance fitness with work, truly inspire me every day and compel me to follow your example. I wish you the best of luck in your future endeavors.</p>
+                    </li>
+                
+                    <li class="message staff-message">
+                        <h2>Zaeema</h2>
+                        <p>Your legacy of excellence will undoubtedly endure, and your departure leaves a void that will be hard to fill. Wishing you a future filled with success. May your journey ahead be as remarkable as the impact you've had on us.</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
+                        <h2>Shaamikh</h2>
+                        <p>Wishing you a fond farewell and continued success in all your future endeavors.</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
+                        <h2>Aisha</h2>
+                        <p>We highly value your contributions to MIRA and wish you continued success in your future endeavors.</p>
+                    </li>
+                
+                    <li class="message staff-message">
+                        <h2>Maisha</h2>
+                        <p>As you step down from your role, I extend our heartfelt gratitude for your exceptional leadership. Wishing you a fond farewell and continued success in all your future endeavors.</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
+                        <h2>Imran</h2>
+                        <p>Best of luck in your new chapter, and may your passion drive positive change.</p>
+                    </li>
+                
+                    <li class="message staff-message">
+                        <h2>Samooh</h2>
+                        <p>Thank you & good luck!</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
+                        <h2>Anwar</h2>
+                        <p>Every new beginning comes from some other beginning’s end. Wishing you all the luck and happiness in the world.</p>
                     </li>
                     <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>John Doe</h2>
-                        <p>
-                            Wishing John Doe all the best in his future endeavors. Your dedication and hard work have been an inspiration to the entire team. Farewell!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
-                    </li>
-                    <li class="message staff-message">
-                        <h2>Jane Smith</h2>
-                        <p>
-                            Thank you, Jane Smith, for your valuable contributions to the team. Your positive attitude and teamwork will be greatly missed. Best of luck in your new journey!
-                        </p>
+                        <h2>Manik</h2>
+                        <p>Thank you, CG, for your exceptional leadership and inspiration. I believe that you have played a major role in all the successes of MIRA since its inception. Your absence will be genuinely felt. Wishing you continued success in all your future endeavors.</p>
                     </li>
                     <!-- Add more staff farewell messages here -->
                 </ul>
@@ -255,49 +94,6 @@
         <p>&copy; 2024 Enterprise Systems Department.</p>
     </footer>
 
-    <script>
-        // Manual message navigation
-        let currentIndexMessage = 0;
     
-        function prevMessage() {
-            currentIndexMessage = ($('.message-slider .message').length + currentIndexMessage - 1) % $('.message-slider .message').length;
-            updateMessageSlider();
-        }
-    
-        function nextMessage() {
-            currentIndexMessage = (currentIndexMessage + 1) % $('.message-slider .message').length;
-            updateMessageSlider();
-        }
-    
-        function updateMessageSlider() {
-            let translateValue = -currentIndexMessage * 100; // Slide one message at a time
-            $('.message-slider ul').css('transform', 'translateX(' + translateValue + '%)');
-        }
-    
-        // jQuery for image slider
-        $(document).ready(function () {
-            let currentIndexImage = 0;
-            let images = $('.image-slider img');
-    
-            setInterval(function () {
-                currentIndexImage = (currentIndexImage + 1) % images.length;
-                updateImageSlider();
-            }, 5000); // Change slide every 5 seconds
-    
-            function updateImageSlider() {
-                images.hide().eq(currentIndexImage).show();
-            }
-        });
-    
-        // jQuery for message slider
-        $(document).ready(function () {
-            let messages = $('.message-slider .message');
-    
-            setInterval(function () {
-                currentIndexMessage = (currentIndexMessage + 1) % messages.length;
-                updateMessageSlider();
-            }, 5000); // Change slide every 5 seconds
-        });
-    </script>
 </body>
 </html>
